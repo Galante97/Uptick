@@ -1,4 +1,5 @@
 Modules used:
-- Barchart Ondemand
+- Barchart Ondemand https://www.barchart.com/ondemand/api
 - pandas 
-- Google spreadsheet api (gspread) https://github.com/burnash/gspread
+- Google drive api (gspread) https://github.com/burnash/gspread
+-nbimporter  https://github.com/grst/nbimporter
