@@ -1,0 +1,182 @@
+INFO:root:Scraping Industry News...
+INFO:root:source =  https://finance.yahoo.com/rss/industry?s=AAPL
+INFO:root:fetching: https://finance.yahoo.com/news/friday-going-huge-day-stock-154102750.html
+INFO:root:fetching: https://finance.yahoo.com/news/amazon-just-accidentally-leaked-details-145441439.html
+INFO:root:fetching: https://finance.yahoo.com/news/pepsi-co-tesla-michael-jordan-helping-carolinas-144252160.html
+INFO:root:fetching: https://finance.yahoo.com/news/u-lng-projects-enough-double-153020633.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/friday-going-huge-day-stock-154102750.html HTTP/1.1" 404 666
+DEBUG:root:404 Client Error: Not Found for url: https://finance.yahoo.com/news/friday-going-huge-day-stock-154102750.html
+INFO:root:fetching: https://finance.yahoo.com/news/general-electric-confirms-blade-problem-133023089.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/pepsi-co-tesla-michael-jordan-helping-carolinas-144252160.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/u-lng-projects-enough-double-153020633.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/amazon-just-accidentally-leaked-details-145441439.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/general-electric-confirms-blade-problem-133023089.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/women-supporting-kavanaugh-themselves-storms-center-041746004--politics.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/spending-bills-leave-conservatives-frustrated-213316893.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/bought-olive-garden-unlimited-pasta-170011600.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/canadian-cannabis-producer-talks-coca-152240848.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/women-supporting-kavanaugh-themselves-storms-center-041746004--politics.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/canadian-cannabis-producer-talks-coca-152240848.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/bought-olive-garden-unlimited-pasta-170011600.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/spending-bills-leave-conservatives-frustrated-213316893.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/morgan-stanley-dea-likely-reclassify-131641762.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/steel-workers-gear-strike-potentially-192400887.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/morgan-stanley-dea-likely-reclassify-131641762.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/micron-poised-report-great-results-155500891.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/feels-apple-being-cheap-not-125940269.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/steel-workers-gear-strike-potentially-192400887.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/feels-apple-being-cheap-not-125940269.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/micron-poised-report-great-results-155500891.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/things-wasn-t-prepared-purchased-090000562.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/things-wasn-t-prepared-purchased-090000562.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/looks-nintendo-could-release-miniature-173300011.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/10-billion-marijuana-producer-just-140900286.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/why-bears-wrong-iqiyi-stock-100000254.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/looks-nintendo-could-release-miniature-173300011.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/why-bears-wrong-iqiyi-stock-100000254.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/10-billion-marijuana-producer-just-140900286.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/surface-oncology-offers-robust-pipeline-194301131.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/surface-oncology-offers-robust-pipeline-194301131.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/air-force-wants-more-planes-194506333.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/brazil-diesel-subsidy-program-threatens-174146502.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/liberty-braves-looking-even-better-190600794.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/air-force-wants-more-planes-194506333.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/vsmpo-avisma-boeing-launch-titanium-175615244.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/liberty-braves-looking-even-better-190600794.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/brazil-diesel-subsidy-program-threatens-174146502.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/vsmpo-avisma-boeing-launch-titanium-175615244.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/facebook-finally-reveals-dating-service-will-work-124751462.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/facebook-finally-reveals-dating-service-will-work-124751462.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/under-armour-cuts-400-more-140002834.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/poll-shows-cruz-ahead-weeks-200335173.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/2-women-drown-while-chained-174336840.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/poll-shows-cruz-ahead-weeks-200335173.html HTTP/1.1" 404 666
+DEBUG:root:404 Client Error: Not Found for url: https://finance.yahoo.com/news/poll-shows-cruz-ahead-weeks-200335173.html
+INFO:root:fetching: https://finance.yahoo.com/news/parts-supplier-challenge-vw-ford-123817496.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/under-armour-cuts-400-more-140002834.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/2-women-drown-while-chained-174336840.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/parts-supplier-challenge-vw-ford-123817496.html HTTP/1.1" 404 676
+DEBUG:root:404 Client Error: Not Found for url: https://finance.yahoo.com/news/parts-supplier-challenge-vw-ford-123817496.html
+INFO:root:fetching: https://finance.yahoo.com/news/neil-degrasse-tyson-elon-musk-175500405.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/neil-degrasse-tyson-elon-musk-175500405.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/why-warren-buffett-keeps-buying-202400489.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/apple-watch-series-4-reviewed-040517685.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/microsoft-increases-dividend-know-175100105.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/why-warren-buffett-keeps-buying-202400489.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/apple-watch-series-4-reviewed-040517685.html HTTP/1.1" 404 670
+DEBUG:root:404 Client Error: Not Found for url: https://finance.yahoo.com/news/apple-watch-series-4-reviewed-040517685.html
+INFO:root:fetching: https://finance.yahoo.com/news/why-nvidia-nvda-stock-down-151203673.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/coca-cola-company-nyse-ko-132739034.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/microsoft-increases-dividend-know-175100105.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/why-nvidia-nvda-stock-down-151203673.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/coca-cola-company-nyse-ko-132739034.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/sexual-misconduct-law-experts-senate-203925971.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/trump-winning-trade-war-china-090523532.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/sexual-misconduct-law-experts-senate-203925971.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/nokia-launches-innovative-services-boost-125112790.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/trump-winning-trade-war-china-090523532.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/nokia-launches-innovative-services-boost-125112790.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/amazon-apos-sub-sink-sonos-144600521.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/former-exec-google-facebook-doesn-125800814.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/amazon-apos-sub-sink-sonos-144600521.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/3-things-investors-know-honeywell-124600241.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/former-exec-google-facebook-doesn-125800814.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/3-things-investors-know-honeywell-124600241.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/sqm-vs-albemarle-vs-fmc-140000500.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/better-buy-align-technology-inc-103100557.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/sqm-vs-albemarle-vs-fmc-140000500.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/better-buy-align-technology-inc-103100557.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/apos-sega-genesis-classics-apos-185334738.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/apos-sega-genesis-classics-apos-185334738.html HTTP/1.1" 200 None
+INFO:root:fetching: https://finance.yahoo.com/news/pot-rally-just-minted-three-165208651.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+INFO:root:fetching: https://finance.yahoo.com/news/ap-explains-muellers-legal-actions-042219027.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/pot-rally-just-minted-three-165208651.html HTTP/1.1" 404 666
+DEBUG:root:404 Client Error: Not Found for url: https://finance.yahoo.com/news/pot-rally-just-minted-three-165208651.html
+INFO:root:fetching: https://finance.yahoo.com/news/centurylink-apos-dividend-even-survive-100200601.html
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): finance.yahoo.com:443
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/ap-explains-muellers-legal-actions-042219027.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://finance.yahoo.com:443 "GET /news/centurylink-apos-dividend-even-survive-100200601.html HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://sheets.googleapis.com:443 "POST /v4/spreadsheets/12a-HZgFTBwHcG-MYI6YL10qOxjUi8o0irG229AY-pik/values/Sheet1:append?valueInputOption=RAW HTTP/1.1" 200 None

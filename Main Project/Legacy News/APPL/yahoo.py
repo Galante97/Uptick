@@ -244,8 +244,10 @@ def get_company_news(ticker):
     logging.info('source = http://finance.yahoo.com/rss/headline?s=%s', ticker)
     source = feedparser.parse('http://finance.yahoo.com/rss/headline?s='+ticker)
     result = getNews(source, 'company')
-
+  
     print('Successfully Retreived: ' + str(len(result)) + ' Company News articles...')
+    
+    
     return result
 
 
