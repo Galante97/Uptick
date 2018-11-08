@@ -16,9 +16,8 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True)
 
 
-def update_AAPL_tweets_rTime():
+def update_AAPL_tweets_data():
     for tweet in tweepy.Cursor(api.search,q="#AAPL",count=100, lang="en", since="2018-11-07").items():
-        print("adding tweet to AAPL_tweets_rTime...")
-        sheet.AAPL_tweets_rTime.append_row([str(tweet.created_at), tweet.text.replace("'b",""), tweet.retweet_count, tweet.favorite_count])
-
+        print("adding tweet to AAPL_tweets_data...")
+        sheet.AAPL_tweets_data.append_row([str(tweet.created_at), tweet.text.replace("'b",""), tweet.retweet_count, tweet.favorite_count])
 

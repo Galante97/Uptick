@@ -3,8 +3,6 @@
 
 # TEAM UPTICK
 
-
-
 #file paths management
 import sys
 sys.path.insert(0, './Legacy Quotes')
@@ -25,7 +23,8 @@ import APPL_News_rTime_updater as ANRTU #real time apple news events
 import sector_News_rTime_updater as SNRTU #real time tech sector news events
 import rTime_stock_updater as RTSU  #real time quote updater
 import rTime_sector_quote_updater as RTSQU #real time sector updater
-
+import AAPL_tweets_data_updater as ATDU #legacy tweets
+import APPL_rTime_tweet_updater as ARTTU #real time tweets
 
 #import google_sheets_api as sheet
 #import yahoo as news
@@ -38,4 +37,5 @@ import rTime_sector_quote_updater as RTSQU #real time sector updater
 #SNRTU.update_sector_News_rTime() # will run every hour
 #RTSU.update_rTime_Quotes()  # will run every 10 min
 #RTSQU.update_sector_rTime() # will run every 10 min
-
+#ATDU.update_AAPL_tweets_data() #will run once a day
+ARTTU.update_AAPL_tweets_rTime() #will run every hour

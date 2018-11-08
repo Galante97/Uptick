@@ -32,13 +32,15 @@ sector_news_data = client.open("sector_news_data").sheet1
 AAPL_news_rTime = client.open("AAPL_news_rTime").sheet1
 sector_news_rTime = client.open("sector_news_rTime").sheet1
 
+AAPL_tweets_data = client.open("AAPL_tweets_data").sheet1
+AAPL_tweets_rTime = client.open("AAPL_tweets_rTime").sheet1
+
 #real time sheets
 APPL_rTime = client.open("AAPL_rTime").sheet1
 TSLA_rTime = client.open("TSLA_rTime").sheet1
 MSFT_rTime = client.open("MSFT_rTime").sheet1
 VZ_rTime = client.open("VZ_rTime").sheet1
 AMZN_rTime = client.open("AMZN_rTime").sheet1
-
 GOOGL_rTime = client.open("GOOGL_rTime").sheet1
 INTC_rTime = client.open("INTC_rTime").sheet1
 CSCO_rTime = client.open("CSCO_rTime").sheet1
@@ -47,5 +49,6 @@ QCOM_rTime = client.open("QCOM_rTime").sheet1
 FB_rTime = client.open("FB_rTime").sheet1
 IBM_rTime = client.open("IBM_rTime").sheet1
 sector_rTime = client.open("sector_rTime").sheet1
+
 
 
