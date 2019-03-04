@@ -29,7 +29,7 @@ import APPL_rTime_tweet_updater as ARTTU #real time tweets
 #import google_sheets_api as sheet
 #import yahoo as news
 
-#LSU.legacy_stock_updator() # will run once a day
+LSU.legacy_stock_updator() # will run once a day
 #TSQU.update_sector_performance() # will run once a day
 #ANDU.update_APPL_news_data() # will run once a day
 #SNDU.update_sector_news_data() # will run once a day
@@ -38,4 +38,4 @@ import APPL_rTime_tweet_updater as ARTTU #real time tweets
 #RTSU.update_rTime_Quotes()  # will run every 10 min
 #RTSQU.update_sector_rTime() # will run every 10 min
 #ATDU.update_AAPL_tweets_data() #will run once a day
-ARTTU.update_AAPL_tweets_rTime() #will run every hour
+#ARTTU.update_AAPL_tweets_rTime() #will run every hour
