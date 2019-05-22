@@ -26,16 +26,30 @@ import rTime_sector_quote_updater as RTSQU #real time sector updater
 import AAPL_tweets_data_updater as ATDU #legacy tweets
 import APPL_rTime_tweet_updater as ARTTU #real time tweets
 
+
+import sched, time
+import datetime as dt
+
+
 #import google_sheets_api as sheet
 #import yahoo as news
 
-LSU.legacy_stock_updator() # will run once a day
+#LSU.legacy_stock_updator() # will run once a day
 #TSQU.update_sector_performance() # will run once a day
 #ANDU.update_APPL_news_data() # will run once a day
 #SNDU.update_sector_news_data() # will run once a day
 #ANRTU.update_APPL_news_rTime() #will run every hour
 #SNRTU.update_sector_News_rTime() # will run every hour
-#RTSU.update_rTime_Quotes()  # will run every 10 min
+
+s = sched.scheduler(time.time, time.sleep)
+def run_re(sc):
+    RTSU.update_rTime_Quotes()  # will run every 10 min
+    print(dt.datetime.now().replace(microsecond=0,second=0))
+    s.enter(600, 1, run_re, (sc,))
+
+s.enter(0, 1, run_re, (s,))
+s.run()
+
 #RTSQU.update_sector_rTime() # will run every 10 min
 #ATDU.update_AAPL_tweets_data() #will run once a day
 #ARTTU.update_AAPL_tweets_rTime() #will run every hour

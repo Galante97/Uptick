@@ -4,7 +4,7 @@ import time
 
 
 import pandas as pd
-
+import math
 import numpy as np
 import datetime as dt
 
@@ -36,9 +36,21 @@ def flatten(input):
 syms = getStockList() #dataframe of the stocks we are getting data for
 print(syms)
 
+def round( n ):
+    # Smaller multiple
+    a = (n // 10) * 10
+    # Larger multiple
+    b = a + 10
+    # Return of closest of two
+    return (b if n - a > b - n else a)
+
+
+
 #BARCHART API
 def construct_barChart_url(sym, api_key=apikey):
     '''Function to construct barchart api url'''
+    
+    #http://marketdata.websol.barchart.com/getQuote.csv?key=0adbf00b462c1acca954a43d94279b92&symbols=AAPL
     
     url = 'http://marketdata.websol.barchart.com/getQuote.csv?' +\
         'key={}&symbols='.format(api_key, sym)
@@ -62,44 +74,44 @@ def sendDataToSheets():
         stockData = getStockLiveData(s)
         print(stockData)
         
-        timestamp = str(dt.datetime.now().time())
+        timestamp = str(dt.datetime.now().replace(microsecond=0,second=0, minute=round(int(dt.datetime.now().strftime('%M')))))
         
         if(s == 'AAPL'):
             print("adding AAPL")
-            sheet.APPL_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.APPL_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'VZ'):
             print("adding VZ")
-            sheet.VZ_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.VZ_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'TSLA'):
             print("adding TSLA")
-            sheet.TSLA_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.TSLA_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'AMZN'):
             print("adding AMZN")
-            sheet.AMZN_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.AMZN_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'MSFT'):
             print("adding MSFT")
-            sheet.MSFT_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.MSFT_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'GOOGL'):
             print("adding GOOGL")
-            sheet.GOOGL_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.GOOGL_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'INTC'):
             print("adding INTC")
-            sheet.INTC_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.INTC_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'CSCO'):
             print("adding CSCO")
-            sheet.CSCO_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.CSCO_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'ORCL'):
             print("adding ORCL")
-            sheet.ORCL_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.ORCL_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'QCOM'):
             print("adding QCOM")
-            sheet.QCOM_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.QCOM_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'FB'):
             print("adding FB")
-            sheet.FB_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.FB_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
         elif (s == 'IBM'):
             print("adding IBM")
-            sheet.IBM_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['open'], stockData[0]['high'], stockData[0]['low'], stockData[0]['netChange'], stockData[0]['volume']])
+            sheet.IBM_rTime.append_row([timestamp, stockData[0]['symbol'], str(dt.date.today()), stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['lastPrice'], stockData[0]['volume']])
 
 def update_rTime_Quotes():
     sendDataToSheets()

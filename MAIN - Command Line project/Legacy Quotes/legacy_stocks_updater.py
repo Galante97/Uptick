@@ -53,7 +53,7 @@ def get_minute_data(start):
     
     # This is the required format for datetimes to access the API
     # You could make a function to translate datetime to this format
-    #start = '20181008' #start data doesnt matter as long as its more then a month older
+    start = '20190503' #start data doesnt matter as long as its more then a month older
     #end = d
     freq = 'minutes'
     interval = 10 #minutes
